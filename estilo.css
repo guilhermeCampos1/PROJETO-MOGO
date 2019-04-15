@@ -1,0 +1,650 @@
+/*  font-family: 'Montserrat';  
+    font-family: 'Kaushan Script';
+*/
+body {
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+h3 {
+    font-family: 'Kaushan Script';
+}
+h4 {
+    font-family: 'Montserrat';
+}
+main {
+    background-image: url(imagens/background1.png);
+    background-repeat: no-repeat; 
+}
+
+/*-----------------------------------------------------MENU DE NAVEGAÇÃO PRINCIPAL-----------------------------------------------------*/
+nav {
+    width: 12.5in;
+    height: 10in;
+    margin: 0 auto;
+}
+
+header {
+    height: 60px;
+}
+.logo {
+    float: left;
+    padding-top: 10px;
+    font-family: 'Montserrat';
+    font-size: 23.5px;
+    font-weight: bold;
+    color: white;
+}
+.MENU {
+    float: right; 
+}
+.MENU ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 44px;
+    height: 30px;
+}
+.MENU ul li.last {
+    margin-right: 0px;
+}
+.MENU ul li:hover {
+   border-bottom: 3px solid;
+   border-color: #fce38a;
+}
+.MENU ul li a { 
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: white;
+}
+.MENU ul li a:hover {
+    color: #fce38a;
+}
+.slogan {
+    margin-top: 14%;
+}
+.slogan h3 {
+    margin-bottom: 0px;
+    font-family: 'Kaushan Script';
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+.slogan h1 {
+    margin: 0 auto;
+    font-family: 'Montserrat';
+    font-size: 120px;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+nav .retangulo-header {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+nav .learn-more {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-left: 43%;
+}
+nav .learn-more a {
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border: 4px solid white;
+}
+nav .footer-principal {
+    margin: 0 auto;
+    margin-top: 15%;
+
+}
+.footer-principal ul li {
+    list-style: none; 
+    display: inline-block;
+    padding-right: 180px;
+    border-top: 3px solid white;
+    padding-top: 20px;
+}
+.footer-principal ul li a {
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding-top: 20px;
+    cursor: pointer;
+    
+}
+.footer-principal ul li a:hover {
+    border-top: 3px solid #f38181;
+
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*----------------------------------------------------------ABOUT US--------------------------------------------------------------------*/
+#About-Us {
+    width: 12.8in;
+    height: 10in;
+    margin: 0 auto;
+}
+h3 {
+    text-align: center;
+    font-size: 20px;
+    margin-top: 100px;
+}
+h4 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.retangulo-AU {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+#About-Us p {
+    font-family: 'Montserrat';
+    text-align: center;
+    color: #a6a6a6;
+    font-size: 13px;
+    margin-top: 50px;
+}
+.imagens-AU ul li{
+    margin-top: 110px;
+    list-style: none;
+    display: inline-block;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*--------------------------------------------------------OUR PROJECTS------------------------------------------------------------------*/
+#Our-Projects {
+    width: 100%;
+    height: 300px;
+    background-color: #95e1d3;
+    text-align: center;
+}
+.OP-numbers ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 12px;
+    color: white;
+    padding: 10px 80px 0 80px;
+    margin-top: 80px;
+}
+.OP-numbers ul li h4{
+    font-size: 70px;
+    padding: 0;
+    margin: 0;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*----------------------------------------------------------SERVICES--------------------------------------------------------------------*/
+#Services {
+    width: 12.8in;
+    height: 7in;
+    margin: 0 auto;
+}
+.retangulo-Services {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+#list-1  {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+#list-1 ul {
+    margin: 0 auto;
+    padding: 0;
+}
+#list-1 ul li {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #b3b3b3;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+#list-1 ul li h6 { 
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 12px;
+}
+#list-2 ul {
+    margin: 0 auto;
+    padding: 0;
+}
+#list-2 ul li {
+    font-family: 'Montserrat';
+    font-size: 12px;
+    color: #b3b3b3;
+    display: inline-block;
+    padding: 10px;
+    margin-right: 50px;
+    margin-top: 40px;
+}
+#list-2 ul li h6 { 
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 12px;
+}
+#img-1 {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}#img-2 {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}#img-3 {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}#img-4 {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}#img-5 {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}#img-6 {
+    position: relative;
+    float: left;
+    margin-top: 30px;
+    margin-right: 30px;
+    margin-bottom: 80px;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*--------------------------------------------------------UNIQUE DESIGN-----------------------------------------------------------------*/
+#Unique-Design {
+    width: 100%;
+    height: 9in;
+    margin: 0 auto;
+    background-image: url(imagens/layer2.png);
+    background-repeat: no-repeat;
+}
+.topo-UD {
+    padding-top: 10px;
+}
+.retangulo-UD {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+.image-UD1 {
+    margin-top: 20px;
+    margin-left: 30%;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*---------------------------------------------------------WHAT WE DO-------------------------------------------------------------------*/
+#What-We-Do {
+    width: 12.8in;
+    height: 9in;
+    margin: 0 auto;
+}
+.retangulo-WWD {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+.topo-WWD p {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #b3b3b3;
+}
+.img-WWD {
+    float: left;
+}
+aside {
+    float: right;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #b3b3b3;
+    height: 400px;
+}
+aside h6 {
+    font-family: 'Montserrat';
+    color: black;
+    font-size: 13px;
+    padding-top: 7px;
+}
+#img1-aside {
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 140px;
+    
+}
+#img2-aside {
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+#img3-aside {
+    position: relative;
+    float: left;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+.CREATIVITY1 {
+    height: 40px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+.WEB-DESIGN1 {
+    
+    padding-right: 10px;
+    margin-top: 50px;
+    
+}
+.CREATIVITY1 h6 {
+    margin: 0 auto;
+}
+.WEB-DESIGN1 h6 {  
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*-----------------------------------------------------------COMMENT--------------------------------------------------------------------*/
+#COMMENT {
+    clear: both;
+    height: 300px;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.comentario {
+    width: 12.8in;
+    margin: 0 auto;
+}
+.img-COMMENT {
+    float: left;
+    padding: 80px 40px 0 60px;
+    
+}
+#texto-comment {
+    float: right;
+    padding-top: 60px;
+}
+#texto-comment p {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #b3b3b3;    
+}
+#texto-comment h6 {
+    float: right;
+    font-family: 'Kaushan Script';
+    font-size: 23px;
+    width: 200px;
+    margin: 0;
+    margin-right: 70%;
+    padding-top: 5px;
+    
+}
+.retangulo-COMMENT {
+    float: left;
+    margin: 0 auto;
+    width: 50px;
+    margin-top: 10px;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*--------------------------------------------------------MEET OUR TEAM-----------------------------------------------------------------*/
+#Meet-Our-Team {
+    width: 13in;
+    height: 10in;
+    margin: 0 auto;
+}
+.retangulo-MOT {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+.topo-MOT P {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    color: #b3b3b3;
+}
+.imagens-team ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 16px;
+}
+.imagens-team ul li h5 {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: center;
+}
+.imagens-team ul li P {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    text-align: center;
+    color: #b3b3b3;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*------------------------------------------------------------LOGOS---------------------------------------------------------------------*/
+#logos {
+    width: 100%;
+    height: 300px;
+    background-color: #f8f8f8;
+}
+.imagem-logos {
+    width: 12.8in;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*------------------------------------------------------SOME OF OUR WORK----------------------------------------------------------------*/
+#some-of-our-work {
+    width: 100%;
+    height: 12in;
+    margin: 0 auto;
+}
+.topo-SOOW {
+    width: 12.8in;
+    margin: 0 auto;
+}
+.retangulo-SOOW {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    padding-left: 80px;
+}
+.topo-SOOW P {
+    font-family: 'Montserrat';
+    font-size: 13px;
+    text-align: center;
+    color: #b3b3b3;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*------------------------------------------------------SOME OF OUR WORK----------------------------------------------------------------*/
+#testimonial {
+    width: 12.8in;
+    height: 3in;
+    margin: 0 auto;
+}
+.img-testimonial {
+    float: left;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.comment-testimonial p {
+    float: right;
+    font-family: 'Montserrat';
+    font-size: 19px;
+    color: #b3b3b3;
+    padding-top: 80px;
+    padding-left: 10px;
+    margin-bottom: 45px;
+}
+.retangulo-testimonial {
+    float: left;
+    padding-top: 4px;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+#testimonial h6 {
+    float: right;
+    margin: 0;
+    font-family: 'Kaushan Script';
+    font-size: 20px;
+    padding-right: 63%;  
+    
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
+/*------------------------------------------------------WHAT PEOPLE SAY-----------------------------------------------------------------*/
+#What-People-Say {
+    width: 100%;
+    height: 8in;
+    margin: 0 auto;
+    background-image: url(imagens/last-bg.png);
+}
+.topo-WPS {
+    padding-top: 5px;
+}
+.retangulo-WPS {
+    margin: 0 auto;
+    width: 150px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    padding-left: 80px;
+}
+.box1-WPS {
+    width: 12.8in;
+    margin: 0 auto;
+}
+.people1 {
+    float: left;
+    width: 600px;
+}
+#img1-WPS {
+    float: left;
+    margin-bottom: 65px;
+    margin-right: 30px;
+}
+.people1 h5 {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding-bottom: 10px;
+}
+.people1 h6 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+}
+.people1 p {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+    padding-top: 20px;
+}
+.people2 {
+    float: right;
+}
+#img2-WPS {
+    float: left;
+    margin-bottom: 65px;
+    margin-right: 30px;
+}
+.people2 h5 {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding-bottom: 10px;
+}
+.people2 h6 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+}
+.people2 p {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+    padding-top: 20px;
+}
+.box2-WPS {
+    width: 12.8in;
+    margin: 0 auto;
+    clear: both;
+}
+.people3 {
+    float: left;
+}
+#img3-WPS {
+    float: left;
+    margin-bottom: 65px;
+    margin-right: 30px;
+}
+.people3 h5 {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding-bottom: 10px;
+}
+.people3 h6 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+}
+.people3 p {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+    padding-top: 20px;
+}
+.people4 {
+    float: right;
+}
+#img4-WPS {
+    float: left;
+    margin-bottom: 65px;
+    margin-right: 30px;
+}
+.people4 h5 {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding-bottom: 10px;
+}
+.people4 h6 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+}
+.people4 p {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    margin: 0;
+    padding-top: 20px;
+}
+/*-------------------------------------------------------------❤-----------------------------------------------------------------------*/
